@@ -12,7 +12,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 .site-header, .hero, .site-footer { width: min(100% - 112px, 1340px); margin-inline: auto; }
 .site-header { height: 100px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,.1); }
 .brand { display: flex; align-items: center; border-radius: 4px; }
-.brand img { width: 160px; height: auto; }
+.brand img { width: 220px; height: auto; }
 .header-product { display: flex; align-items: center; gap: 9px; color: #d8d8d8; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
 .header-dot, .status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 15px color-mix(in srgb, var(--accent) 80%, transparent); flex: none; }
 .hero { flex: 1; display: grid; grid-template-columns: minmax(0, 1.03fr) minmax(0, .97fr); align-items: center; gap: 40px; padding-block: 54px; }
@@ -47,7 +47,7 @@ h1 span { color: var(--accent); }
 @media (max-width: 760px) {
   .site-header, .hero, .site-footer { width: min(100% - 40px, 560px); }
   .site-header { height: 80px; }
-  .brand img { width: 136px; }
+  .brand img { width: 180px; }
   .header-product { font-size: 10px; }
   .hero { grid-template-columns: minmax(0, 1fr); gap: 0; padding-block: 58px 20px; }
   .hero-copy { padding: 0; }

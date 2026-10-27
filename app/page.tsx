@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <div className="site-shell">
       <header className="site-header">
-        <a className="brand" href="https://coderats.club" aria-label="CodeRats — acessar o site">
-          <Image src="/coderats-wordmark.svg" width={177} height={36} alt="CodeRats" priority />
+        <a className="brand" href="https://coderats.club" aria-label="CodeRats Education — acessar o site da CodeRats">
+          <Image src="/coderats-education-logo.png" width={2172} height={724} alt="CodeRats Education" priority />
         </a>
         <div className="header-product"><span className="header-dot" aria-hidden="true" />{product}</div>
       </header>
